@@ -1,8 +1,10 @@
 .App{
  /* margin-top:80px;*/
  padding-top: 80px;
- padding-bottom:285px;
-  background:gray;
+ /*padding-bottom:385px;*/
+ background:gray;
+ height: 100vh;
+ margin:auto;
   
 
 }

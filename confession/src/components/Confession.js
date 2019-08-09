@@ -42,9 +42,13 @@ export default class Confession extends Component {
                 ...this.state,
                 task:{
                     confession:""
+                  
                 }
+                
             })
         })
+        
+        
     }
     
     render() {
