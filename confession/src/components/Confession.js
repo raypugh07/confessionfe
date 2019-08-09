@@ -35,7 +35,7 @@ export default class Confession extends Component {
     addHandler=e=>{
         e.preventDefault();
         axios
-        .post(`http://raypugh07-confessions.herokuapp.com/confessions/confessions`,this.state.task)
+        .post(`https://raypugh07-confessions.herokuapp.com/confessions/confessions`,this.state.task)
         .then(res=>{
             console.log(res);
             this.setState({
