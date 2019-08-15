@@ -3,7 +3,15 @@
     margin:auto;
 }
 
+@media (max-width:375px){
+    .form{
+        width:375px;
+        padding: 5px;
+    }
+}
+
 .confessional{
     font-size: 80px;
     border-radius: 5px;
 }
+
