@@ -78,7 +78,7 @@ export default class Confession extends Component {
     render() {
         return (
            <div><Header as="h2" textAlign="center">
-               <img className='confessional' alt='confessional' src={Confessional}></img>
+              <img className='confessional' alt='confessional' src={Confessional} width={300}></img>
           </Header>
           <Divider hidden />
             <div className='form'> 
@@ -93,7 +93,7 @@ export default class Confession extends Component {
                placeholder='Confess your sins my child...'
                />
                 <Divider hidden />
-               <Button color='blue' fluid size='medium'>You are forgiven.</Button>
+               <Button color='teal' fluid size='medium'>You are forgiven.</Button>
            </form>
            </div>
            </div>
@@ -108,3 +108,5 @@ export default class Confession extends Component {
         )
     }
 }
+
+//
